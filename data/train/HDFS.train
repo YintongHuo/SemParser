@@ -1,0 +1,510 @@
+[TMP]
+Receiving
+block MA-0
+blk_-4365612131648152536 MI-0
+src MA-1
+:
+/10.251.107.227:57736 MI-1
+dest MA-2
+:
+/10.251.107.227:50010 MI-2
+
+[TMP]
+BLOCK MA
+*
+NameSystem.addStoredBlock MA
+:
+blockMap MA
+updated
+:
+10.251.109.209:50010 MI
+is
+added
+to
+blk_1129715194117079802 MI
+size MA-1
+67108864 MI-1
+
+[TMP]
+Deleting
+block MA-0
+blk_-6891122177443047531 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir36/blk_-6891122177443047531 MI-1
+
+[TMP]
+BLOCK MA
+*
+NameSystem.allocateBlock MA
+:
+/user/root/randtxt5/_temporary/_task_200811101024_0012_m_001635_0/part-01635 MI
+.
+blk_9034993982993401678 MI
+
+[TMP]
+Deleting
+block MA-0
+blk_6077744985764117617 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir17/blk_6077744985764117617 MI-1
+
+[TMP]
+Receiving
+block MA-0
+blk_7924393760966842810 MI-0
+src MA-1
+:
+/10.251.202.209:59148 MI-1
+dest MA-2
+:
+/10.251.202.209:50010 MI-2
+
+[TMP]
+PacketResponder MA-0
+0 MI-0
+for
+block MA-1
+blk_2089955821703690032 MI-1
+terminating
+
+[TMP]
+Received
+block MA-0
+blk_-5586529360624346565 MI-0
+of
+size MA-1
+67108864 MI-1
+from
+/10.251.43.115 MI
+
+[TMP]
+BLOCK MA
+*
+NameSystem.delete MA
+:
+blk_-323838382557775734 MI
+is
+added
+to
+invalidSet MA
+of
+10.251.202.209:50010 MI
+
+[TMP]
+Received
+block MA-0
+blk_692184983396207285 MI-0
+of
+size MA-1
+67108864 MI-1
+from
+/10.250.6.214 MI
+
+[TMP]
+Deleting
+block MA-0
+blk_8436095180790908547 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir43/blk_8436095180790908547 MI-1
+
+[TMP]
+Deleting
+block MA-0
+blk_-2929627680703662712 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir32/blk_-2929627680703662712 MI-1
+
+[TMP]
+Deleting
+block MA-0
+blk_1692958087244489888 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir62/blk_1692958087244489888 MI-1
+
+[TMP]
+PacketResponder MA-0
+0 MI-0
+for
+block MA-1
+blk_-5102453487463005287 MI-1
+terminating
+
+[TMP]
+Deleting
+block MA-0
+blk_-1897524391075610396 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir47/blk_-1897524391075610396 MI-1
+
+[TMP]
+10.251.122.38:50010 MI
+:
+Got
+exception
+while
+serving
+blk_7489155602821840025 MI
+to
+/10.251.26.8 MI
+:
+
+[TMP]
+Received
+block MA-0
+blk_-518701095493827363 MI-0
+of
+size MA-1
+67108864 MI-1
+from
+/10.251.214.67 MI
+
+[TMP]
+BLOCK MA
+*
+NameSystem.addStoredBlock MA
+:
+blockMap MA
+updated
+:
+10.251.71.16:50010 MI
+is
+added
+to
+blk_-6464763289185102366 MI
+size MA-0
+67108864 MI-0
+
+[TMP]
+BLOCK MA
+*
+NameSystem.delete MA
+:
+blk_2154193600525549460 MI
+is
+added
+to
+invalidSet MA
+of
+10.251.43.147:50010 MI
+
+[TMP]
+BLOCK MA
+*
+NameSystem.delete MA
+:
+blk_6881216037013929188 MI
+is
+added
+to
+invalidSet MA
+of
+10.251.91.32:50010 MI
+
+[TMP]
+Deleting
+block MA-0
+blk_1587615395786683981 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir14/blk_1587615395786683981 MI-1
+
+[TMP]
+PacketResponder MA-0
+2 MI-0
+for
+block MA-1
+blk_2389216938154332862 MI-1
+terminating
+
+[TMP]
+Received
+block MA-0
+blk_-1485109068671160157 MI-0
+of
+size MA-1
+67108864 MI-1
+from
+/10.251.71.68 MI
+
+[TMP]
+PacketResponder MA-0
+2 MI-0
+for
+block MA-1
+blk_6791628131402590260 MI-1
+terminating
+
+[TMP]
+Deleting
+block MA-0
+blk_5528471097481810388 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir5/blk_5528471097481810388 MI-1
+
+[TMP]
+PacketResponder MA-0
+2 MI-0
+for
+block MA-1
+blk_2691304991047255190 MI-1
+terminating
+
+[TMP]
+Receiving
+block MA-0
+blk_-2313277713021896570 MI-0
+src MA-1
+:
+/10.251.123.195:58823 MI-1
+dest MA-2
+:
+/10.251.123.195:50010 MI-2
+
+[TMP]
+Received
+block MA-0
+blk_3084588477220583373 MI-0
+of
+size MA-1
+67108864 MI-1
+from
+/10.251.125.174 MI
+
+[TMP]
+BLOCK MA
+*
+NameSystem.addStoredBlock MA
+:
+blockMap MA
+updated
+:
+10.251.202.209:50010 MI
+is
+added
+to
+blk_-6224982681533811277 MI
+size MA-1
+67108864 MI-1
+
+[TMP]
+Deleting
+block MA-0
+blk_-3564493590065542578 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir55/blk_-3564493590065542578 MI-1
+
+[TMP]
+BLOCK MA
+*
+NameSystem.addStoredBlock MA
+:
+blockMap MA
+updated
+:
+10.251.31.242:50010 MI
+is
+added
+to
+blk_-5400783031085008882 MI
+size MA-0
+67108864 MI-0
+
+[TMP]
+Receiving
+block MA-0
+blk_-5957060034695163774 MI-0
+src MA-1
+:
+/10.251.29.239:56334 MI-1
+dest MA-2
+:
+/10.251.29.239:50010 MI-2
+
+[TMP]
+10.251.202.209:50010 MI
+Served
+block MA-0
+blk_-1442905060580014339 MI-0
+to
+/10.251.202.209 MI
+
+[TMP]
+Receiving
+block MA-0
+blk_691517018986659607 MI-0
+src MA-1
+:
+/10.251.195.70:59379 MI-1
+dest MA-2
+:
+/10.251.195.70:50010 MI-2
+
+[TMP]
+Receiving
+block MA-0
+blk_3962600675982666210 MI-0
+src MA-1
+:
+/10.251.123.195:37374 MI-1
+dest MA-2
+:
+/10.251.123.195:50010 MI-2
+
+[TMP]
+Receiving
+block MA-0
+blk_-8123824094195108685 MI-0
+src MA-1
+:
+/10.251.194.213:54308 MI-1
+dest MA-2
+:
+/10.251.194.213:50010 MI-2
+
+[TMP]
+Receiving
+block MA-0
+blk_6628512193350164674 MI-0
+src MA-1
+:
+/10.251.73.220:33460 MI-1
+dest MA-2
+:
+/10.251.73.220:50010 MI-2
+
+[TMP]
+BLOCK MA
+*
+NameSystem.addStoredBlock MA
+:
+blockMap MA
+updated
+:
+10.251.43.210:50010 MI
+is
+added
+to
+blk_-6995454028444097802 MI
+size MA-0
+67108864 MI-0
+
+[TMP]
+Received
+block MA-0
+blk_8408125361497769001 MI-0
+of
+size MA-1
+67108864 MI-1
+from
+/10.251.70.211 MI
+
+[TMP]
+BLOCK MA
+*
+NameSystem.addStoredBlock MA
+:
+blockMap MA
+updated
+:
+10.251.110.160:50010 MI
+is
+added
+to
+blk_-1675768179383804109 MI
+size MA-0
+67108864 MI-0
+
+[TMP]
+PacketResponder MA-0
+1 MI-0
+for
+block MA-1
+blk_8459274965060101250 MI-1
+terminating
+
+[TMP]
+Receiving
+block MA-0
+blk_4198733391373026104 MI-0
+src MA-1
+:
+/10.251.106.10:46843 MI-1
+dest MA-2
+:
+/10.251.106.10:50010 MI-2
+
+[TMP]
+Received
+block MA-0
+blk_-185994527242886002 MI-0
+of
+size MA-1
+3552954 MI-1
+from
+/10.251.39.160 MI
+
+[TMP]
+BLOCK MA
+*
+NameSystem.delete MA
+:
+blk_-5382946262718129284 MI
+is
+added
+to
+invalidSet MA
+of
+10.250.5.161:50010 MI
+
+[TMP]
+Received
+block MA-0
+blk_-2243784245784480521 MI-0
+of
+size MA-1
+67108864 MI-1
+from
+/10.250.6.191 MI
+
+[TMP]
+PacketResponder MA-0
+1 MI-0
+for
+block MA-1
+blk_-4633546693082073737 MI-1
+terminating
+
+[TMP]
+BLOCK MA
+*
+NameSystem.delete MA
+:
+blk_7324196727355442810 MI
+is
+added
+to
+invalidSet MA
+of
+10.251.203.80:50010 MI
+
+[TMP]
+PacketResponder MA-0
+1 MI-0
+for
+block MA-1
+blk_-6934248664959947757 MI-1
+terminating
+
+[TMP]
+Deleting
+block MA-0
+blk_6163400028286940197 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir7/blk_6163400028286940197 MI-1
+
+[TMP]
+Deleting
+block MA-0
+blk_-7423574498760490375 MI-0
+file MA-1
+/mnt/hadoop/dfs/data/current/subdir58/blk_-7423574498760490375 MI-1
+

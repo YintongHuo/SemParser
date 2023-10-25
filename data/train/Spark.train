@@ -1,0 +1,670 @@
+[TMP]
+Found
+block MA-0
+rdd_6_2 MI-0
+locally
+
+[TMP]
+Found
+block MA-0
+rdd_2_2 MI-0
+locally
+
+[TMP]
+File
+Output
+Committer
+Algorithm
+version MA-0
+is
+1 MI-0
+
+[TMP]
+Saved
+output
+of
+task MA-0
+``
+attempt_201706092018_0024_m_000042_1127 MI-0
+''
+to
+hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000042 MI
+
+[TMP]
+Finished
+task MA-0
+25.0 MI-0
+in
+stage MA-1
+28.0 MI-1
+(
+TID MA-2
+1305 MI-2
+)
+.
+2087 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Running
+task MA-0
+0.0 MI-0
+in
+stage MA-1
+8.0 MI-1
+(
+TID MA-2
+321 MI-2
+)
+
+[TMP]
+Block MA-0
+rdd_26_3 MI-0
+stored
+as
+bytes
+in
+memory
+(
+estimated
+size MA-1
+16.0 MI-1
+B
+,
+free MA-2
+419.6 MI-2
+KB
+)
+
+[TMP]
+Found
+block MA-0
+rdd_2_1 MI-0
+locally
+
+[TMP]
+Finished
+task MA-0
+26.0 MI-0
+in
+stage MA-1
+28.0 MI-1
+(
+TID MA-2
+1306 MI-2
+)
+.
+2087 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Finished
+task MA-0
+27.0 MI-0
+in
+stage MA-1
+27.0 MI-1
+(
+TID MA-2
+1267 MI-2
+)
+.
+2182 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Block MA-0
+broadcast_11_piece0 MI-0
+stored
+as
+bytes
+in
+memory
+(
+estimated
+size MA-1
+5.4 MI-1
+KB
+,
+free MA-2
+344.7 MI-2
+KB
+)
+
+[TMP]
+Finished
+task MA-0
+3.0 MI-0
+in
+stage MA-1
+19.0 MI-1
+(
+TID MA-2
+798 MI-2
+)
+.
+2667 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Times
+:
+total MA-0
+=
+41 MI-0
+,
+boot MA-1
+=
+-82 MI-1
+,
+init MA-2
+=
+123 MI-2
+,
+finish MA-3
+=
+0 MI-3
+
+[TMP]
+Input
+split MA-0
+:
+hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292 MI-0
+
+[TMP]
+Finished
+task MA-0
+24.0 MI-0
+in
+stage MA-1
+29.0 MI-1
+(
+TID MA-2
+1344 MI-2
+)
+.
+2128 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+mapred.task.partition MI
+is
+deprecated
+.
+Instead
+,
+use
+mapreduce.task.partition MI
+
+[TMP]
+Times
+:
+total MA-0
+=
+40 MI-0
+,
+boot MA-1
+=
+20 MI-1
+,
+init MA-2
+=
+19 MI-2
+,
+finish MA-3
+=
+1 MI-3
+
+[TMP]
+Running
+task MA-0
+3.0 MI-0
+in
+stage MA-1
+5.0 MI-1
+(
+TID MA-2
+238 MI-2
+)
+
+[TMP]
+Finished
+task MA-0
+4.0 MI-0
+in
+stage MA-1
+20.0 MI-1
+(
+TID MA-2
+839 MI-2
+)
+.
+2076 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Running
+task MA-0
+6.0 MI-0
+in
+stage MA-1
+26.0 MI-1
+(
+TID MA-2
+1206 MI-2
+)
+
+[TMP]
+Partition MA-0
+rdd_6_4 MI-0
+not
+found
+,
+computing
+it
+
+[TMP]
+Got
+assigned
+task MA-0
+416 MI-0
+
+[TMP]
+Got
+assigned
+task MA-1
+1285 MI-1
+
+[TMP]
+Running
+task MA-0
+19.0 MI-0
+in
+stage MA-1
+27.0 MI-1
+(
+TID MA-2
+1259 MI-2
+)
+
+[TMP]
+Found
+block MA-0
+rdd_11_2 MI-0
+locally
+
+[TMP]
+Got
+assigned
+task MA-1
+1345 MI-1
+
+[TMP]
+Times
+:
+total MA-0
+=
+45 MI-0
+,
+boot MA-1
+=
+19 MI-1
+,
+init MA-2
+=
+26 MI-2
+,
+finish MA-3
+=
+0 MI-3
+
+[TMP]
+MemoryStore MA
+started
+with
+capacity MA-0
+17.7 MI-0
+GB
+
+[TMP]
+Input
+split MA-0
+:
+hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:153132+7292 MI-0
+
+[TMP]
+Times
+:
+total MA-0
+=
+41 MI-0
+,
+boot MA-1
+=
+16 MI-1
+,
+init MA-2
+=
+25 MI-2
+,
+finish MA-3
+=
+0 MI-3
+
+[TMP]
+Finished
+task MA-0
+12.0 MI-0
+in
+stage MA-1
+29.0 MI-1
+(
+TID MA-2
+1332 MI-2
+)
+.
+2128 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Times
+:
+total MA-0
+=
+39 MI-0
+,
+boot MA-1
+=
+24 MI-1
+,
+init MA-2
+=
+14 MI-2
+,
+finish MA-3
+=
+1 MI-3
+
+[TMP]
+File
+Output
+Committer
+Algorithm
+version MA-0
+is
+1 MI-0
+
+[TMP]
+Finished
+task MA-0
+33.0 MI-0
+in
+stage MA-1
+28.0 MI-1
+(
+TID MA-2
+1313 MI-2
+)
+.
+2087 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Running
+task MA-0
+20.0 MI-0
+in
+stage MA-1
+26.0 MI-1
+(
+TID MA-2
+1220 MI-2
+)
+
+[TMP]
+Running
+task MA-0
+1.0 MI-0
+in
+stage MA-1
+26.0 MI-1
+(
+TID MA-2
+1201 MI-2
+)
+
+[TMP]
+Times
+:
+total MA-0
+=
+38 MI-0
+,
+boot MA-1
+=
+-156 MI-1
+,
+init MA-2
+=
+194 MI-2
+,
+finish MA-3
+=
+0 MI-3
+
+[TMP]
+Reading
+broadcast
+variable MA-0
+4 MI-0
+took
+18 MI
+ms MA
+
+[TMP]
+Block MA-0
+broadcast_17_piece0 MI-0
+stored
+as
+bytes
+in
+memory
+(
+estimated
+size MA-1
+5.7 MI-1
+KB
+,
+free MA-2
+438.5 MI-2
+KB
+)
+
+[TMP]
+Times
+:
+total MA-0
+=
+42 MI-0
+,
+boot MA-1
+=
+-28 MI-1
+,
+init MA-2
+=
+69 MI-2
+,
+finish MA-3
+=
+1 MI-3
+
+[TMP]
+Running
+task MA-0
+12.0 MI-0
+in
+stage MA-1
+29.0 MI-1
+(
+TID MA-2
+1332 MI-2
+)
+
+[TMP]
+Finished
+task MA-0
+7.0 MI-0
+in
+stage MA-1
+27.0 MI-1
+(
+TID MA-2
+1247 MI-2
+)
+.
+2171 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Got
+assigned
+task MA-0
+1281 MI-0
+
+[TMP]
+Finished
+task MA-0
+15.0 MI-0
+in
+stage MA-1
+27.0 MI-1
+(
+TID MA-2
+1255 MI-2
+)
+.
+2523 MI-3
+bytes MA-3
+result
+sent
+to
+driver
+
+[TMP]
+Found
+block MA-0
+rdd_42_37 MI-0
+locally
+
+[TMP]
+Block MA-0
+broadcast_40_piece0 MI-0
+stored
+as
+bytes
+in
+memory
+(
+estimated
+size MA-1
+6.0 MI-1
+KB
+,
+free MA-2
+874.3 MI-2
+KB
+)
+
+[TMP]
+Running
+task MA-0
+4.0 MI-0
+in
+stage MA-1
+13.0 MI-1
+(
+TID MA-2
+559 MI-2
+)
+
+[TMP]
+Times
+:
+total MA-0
+=
+40 MI-0
+,
+boot MA-1
+=
+20 MI-1
+,
+init MA-2
+=
+19 MI-2
+,
+finish MA-3
+=
+1 MI-3
+
+[TMP]
+Got
+assigned
+task MA-0
+118 MI-0
+
+[TMP]
+Block MA-0
+broadcast_1_piece0 MI-0
+stored
+as
+bytes
+in
+memory
+(
+estimated
+size MA-1
+107.0 MI-1
+B
+,
+free MA-2
+318.6 MI-2
+KB
+)
+

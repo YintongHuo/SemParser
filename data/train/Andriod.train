@@ -1,0 +1,796 @@
+[TMP]
+isMusicActive MA
+...
+
+[TMP]
+HBM MA
+brightnessIn MA-0
+=
+38 MI-0
+
+[TMP]
+Releasing
+suspend
+blocker MA-0
+``
+PowerManagerService.WakeLocks MI-0
+''
+.
+
+[TMP]
+setLightsOn MA-0
+(
+true MI-0
+)
+
+[TMP]
+cancelNotification MA
+,
+index MA-0
+:
+-1 MI-0
+
+[TMP]
+Animating
+brightness MA
+:
+target NA-0
+=
+38 MI-0
+,
+rate MA-1
+=
+200 MI-1
+
+[TMP]
+Destroying
+surface MA
+Surface MA
+(
+name MA-0
+=
+com.tencent.qt.qtl/com.tencent.qt.qtl.activity.main.MainTabActivity MI-0
+)
+called
+by
+com.android.server.wm.WindowStateAnimator.destroySurface:2060 MI
+com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 MI
+com.android.server.wm.WindowState.destroyOrSaveSurface:2201 MI
+com.android.server.wm.AppWindowToken.destroySurfaces:374 MI
+com.android.server.wm.AppWindowToken.notifyAppStopped:400 MI
+com.android.server.wm.WindowManagerService.notifyAppStopped:4869 MI
+com.android.server.am.ActivityStack.activityStoppedLocked:1393 MI
+com.android.server.am.ActivityManagerService.activityStopped:7690 MI
+
+[TMP]
+shouldBlockLocation MA
+ret MA-0
+:
+false MI-0
+
+[TMP]
+ready MA-0
+=
+true MI-0
+,
+policy MA-1
+=
+3 MI-1
+,
+wakefulness MA-2
+=
+1 MI-2
+,
+wksummary MA-3
+=
+0x0 MI-3
+,
+uasummary MA-4
+=
+0x1 MI-4
+,
+bootcompleted MA-5
+=
+true MI-5
+,
+boostinprogress MA-6
+=
+false MI-6
+,
+waitmodeenable MA-7
+=
+false MI-7
+,
+mode MA-8
+=
+false MI-8
+,
+manual MA-9
+=
+38 MI-9
+,
+auto MA-10
+=
+-1 MI-10
+,
+adj MA-11
+=
+0.0 MI-11
+userId MA-12
+=
+0 MI-12
+
+[TMP]
+setLightsOn MA-0
+(
+true MI-0
+)
+
+[TMP]
+updateDimmedActivatedHideSensitive MA
+overlap MA-0
+:
+false MA-1
+
+[TMP]
+setLightsOn MA-0
+(
+true MI-0
+)
+
+[TMP]
+Destroying
+surface MA
+Surface MA
+(
+name MA-0
+=
+com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity MI-0
+)
+called
+by
+com.android.server.wm.WindowStateAnimator.destroySurface:2060 MI
+com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 MI
+com.android.server.wm.WindowState.destroyOrSaveSurface:2201 MI
+com.android.server.wm.AppWindowToken.destroySurfaces:374 MI
+com.android.server.wm.AppWindowToken.notifyAppStopped:400 MI
+com.android.server.wm.WindowManagerService.notifyAppStopped:4869 MI
+com.android.server.am.ActivityStack.activityStoppedLocked:1393 MI
+com.android.server.am.ActivityManagerService.activityStopped:7690 MI
+
+[TMP]
+getRunningAppProcesses MA
+:
+caller MA-0
+10027 MI-0
+does
+not
+hold
+REAL_GET_TASKS MI
+;
+limiting
+output
+
+[TMP]
+setLightsOn MA-0
+(
+true MI-0
+)
+
+[TMP]
+cancelPeek MA-0
+:
+false MI-0
+
+[TMP]
+updateDimmedActivatedHideSensitive MA
+overlap MA-0
+:
+false MI-0
+
+[TMP]
+updateClipping
+isOverlap MA-0
+:
+false MI-0
+,
+getTopPadding MA-1
+=
+333.0 MI-1
+,
+Translation MA-2
+=
+0.0 MI-2
+
+[TMP]
+HBM MA
+brightnessIn MA-0
+=
+38 MI-0
+
+[TMP]
+ready MA-0
+=
+true MI-0
+,
+policy MA-1
+=
+3 MI-1
+,
+wakefulness MA-2
+=
+1 MI-2
+,
+wksummary MA-3
+=
+0x0 MI-3
+,
+uasummary MA-4
+=
+0x1 MI-4
+,
+bootcompleted MA-5
+=
+true MI-5
+,
+boostinprogress MA-6
+=
+false MI-6
+,
+waitmodeenable MA-7
+=
+false MI-7
+,
+mode MA-8
+=
+false MI-8
+,
+manual MA-9
+=
+38 MI-9
+,
+auto MA-10
+=
+-1 MI-10
+,
+adj MA-11
+=
+0.0 MI-11
+userId MA-12
+=
+0 MI-12
+
+[TMP]
+state.clipTopAmount MA-0
+:
+30 MI-0
+,
+i MA-1
+:
+0 MI-1
+
+[TMP]
+acquire
+lock MA-0
+=
+189667585 MI-0
+,
+flags MA-1
+=
+0x1 MI-1
+,
+tag MA-2
+=
+''
+*
+launch MI-2
+*
+''
+,
+name MA-3
+=
+android MI-3
+,
+ws MA
+=
+WorkSource MA-4
+{
+10111 MI-4
+}
+,
+uid MA-5
+=
+1000 MI-5
+,
+pid MA-6
+=
+1702 MI-6
+
+[TMP]
+enqueueNotificationInternal MA
+:
+n.getKey MA
+=
+0 MI
+|
+com.tencent.mm MI
+|
+4097 MI
+|
+null MI
+|
+10112 MI
+
+[TMP]
+Skipping
+AppWindowToken MA
+{
+df0798e MI
+token MA
+=
+Token MA
+{
+78af589 MI
+ActivityRecord MA
+{
+3b04890u0 MI
+com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity MI
+t761 MI
+}
+}
+}
+--
+going
+to
+hide
+
+[TMP]
+cancelPeek MA-0
+:
+false MI-0
+
+[TMP]
+interceptKeyBeforeQueueing MA
+:
+key MA-0
+4 MI-0
+,
+result MA-1
+:
+1 MI-1
+
+[TMP]
+sending
+alarm MA
+Alarm MA-0
+{
+aa90550 MI-0
+type MA-1
+3 MI-1
+when
+509142332 MI
+PendingIntent MA
+{
+1749923 MI
+:
+PendingIntentRecord MA
+{
+9600e20 MI
+android MI
+broadcastIntent MA
+}
+}
+}
+,
+repeatInterval MA-2
+=
+0 MI-2
+,
+listenerTag MA-3
+=
+time_tick MI-3
+
+[TMP]
+setLightsOn MA-0
+(
+true MI-0
+)
+
+[TMP]
+Taking
+screenshot
+from
+Surface MA
+with
+crop MA
+:
+[
+Rect MA-0
+(
+0 MI-0
+,
+48 MI-0
+-
+720 MI-0
+,
+1208 MI-0
+)
+]
+,
+width MA-1
+:
+[
+432 MI-1
+]
+,
+height MA-2
+:
+[
+696 MI-2
+]
+,
+minLayer MA-3
+:
+[
+21085 MI-3
+]
+,
+maxLayer MA-4
+:
+[
+21085 MI-4
+]
+,
+inRotation MA-5
+:
+[
+false MI-5
+]
+,
+rot MA-6
+:
+[
+0 MI-6
+]
+
+[TMP]
+isSimPinSecure MI
+mSimDatas MI
+is
+null
+or
+empty
+
+[TMP]
+Skipping
+,
+withExcluded MA-0
+:
+false MI-0
+,
+tr.intent MA
+:
+Intent MA
+{
+flg MA-1
+=
+0x18800000 MI-1
+cmp MA-2
+=
+com.tencent.mm/.plugin.base.stub.WXEntryActivity MI-2
+(
+has
+extras
+)
+}
+
+[TMP]
+Releasing
+suspend
+blocker MA-0
+``
+PowerManagerService.WakeLocks MI-0
+''
+.
+
+[TMP]
+HBM
+brightnessIn MA-0
+=
+38 MI-0
+
+[TMP]
+getRunningAppProcesses MA
+:
+caller MA-0
+10112 MI-0
+does
+not
+hold
+REAL_GET_TASKS MI
+;
+limiting
+output
+
+[TMP]
+resumeSuspendedAutohide MA
+
+[TMP]
+getRunningAppProcesses MA
+:
+caller MA-0
+10111 MI-0
+does
+not
+hold
+REAL_GET_TASKS MI
+;
+limiting
+output
+
+[TMP]
+acquire
+lock MA-0
+=
+189667585 MI-0
+,
+flags MA-1
+=
+0x1 MI-1
+,
+tag MA-2
+=
+''
+*
+launch MI-2
+*
+''
+,
+name MA-3
+=
+android MI-3
+,
+ws MA
+=
+WorkSource MA-4
+{
+10020 MI-4
+}
+,
+uid MA-5
+=
+1000 MI-5
+,
+pid MA-6
+=
+1702 MI-6
+
+[TMP]
+getRunningAppProcesses MA
+:
+caller MA-0
+10111 MI-0
+does
+not
+hold
+REAL_GET_TASKS MI
+;
+limiting
+output
+
+[TMP]
+cleanUpApplicationRecord MA-0
+--
+12025 MI-0
+
+[TMP]
+closeQs MA
+
+[TMP]
+setSystemUiVisibility MA
+vis MA-0
+=
+40000500 MI-0
+mask MA-1
+=
+ffffffff MI-1
+oldVal MA-2
+=
+40000600 MI-2
+newVal MA-3
+=
+40000500 MI-3
+diff MA-4
+=
+300 MI-4
+fullscreenStackVis MA-5
+=
+0 MI-5
+dockedStackVis MA-6
+=
+0 MI-6
+,
+fullscreenStackBounds MA
+=
+Rect MA
+(
+0 MI
+,
+0 MI
+-
+720 MI
+,
+1280 MI
+)
+,
+dockedStackBounds MA
+=
+Rect
+(
+0 MI
+,
+0 MI
+-
+0 MI
+,
+0 MI
+)
+
+[TMP]
+onExpandingFinished MA
+
+[TMP]
+Animating
+brightness MA
+:
+target MA-0
+=
+38 MI-0
+,
+rate MA-1
+=
+200 MI-1
+
+[TMP]
+setSystemUiVisibility MA
+vis MA-0
+=
+0 MI-0
+mask MA-1
+=
+1 MI-1
+oldVal MA-2
+=
+40000500 MI-2
+newVal MA-3
+=
+40000500 MI-3
+diff MA-4
+=
+0 MI-4
+fullscreenStackVis MA-5
+=
+0 MI-5
+dockedStackVis MA-6
+=
+0 MI-6
+,
+fullscreenStackBounds MA
+=
+Rect MA
+(
+0 MI
+,
+0 MI
+-
+0 MI
+,
+0 MI
+)
+,
+dockedStackBounds MA
+=
+Rect MA
+(
+0 MI
+,
+0 MI
+-
+0 MI
+,
+0 MI
+)
+
+[TMP]
+getRunningAppProcesses MA
+:
+caller MA-0
+10091 MI-0
+does
+not
+hold
+REAL_GET_TASKS MI
+;
+limiting
+output
+
+[TMP]
+cancelAutohide MA
+
+[TMP]
+setLightsOn MA-0
+(
+true MI-0
+)
+
+[TMP]
+getRunningAppProcesses MA
+:
+caller MA-0
+10113 MI-0
+does
+not
+hold
+REAL_GET_TASKS MI
+;
+limiting
+output
+
+[TMP]
+setLightsOn MA-0
+(
+true MI-0
+)
+
+[TMP]
+ready MA-0
+=
+true MI-0
+,
+policy MA-1
+=
+3 MI-1
+,
+wakefulness MA-2
+=
+1 MI-2
+,
+wksummary MA-3
+=
+0x0 MI-3
+,
+uasummary MA-4
+=
+0x1 MI-4
+,
+bootcompleted MA-5
+=
+true MI-5
+,
+boostinprogress MA-6
+=
+false MI-6
+,
+waitmodeenable MA-7
+=
+false MI-7
+,
+mode MA-8
+=
+false MI-8
+,
+manual MA-9
+=
+38 MI-9
+,
+auto MA-10
+=
+-1 MI-10
+,
+adj MA-11
+=
+0.0 MI-11
+userId MA-12
+=
+0 MI-12
+

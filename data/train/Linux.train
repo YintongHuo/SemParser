@@ -1,0 +1,770 @@
+[TMP]
+connection
+from
+203.101.45.59 MI
+(
+dsl-Chn-static-059.45.101.203.touchtelindia.net MI
+)
+at
+Sun MI
+Jul MI
+17 MI
+15:09:15 MI
+2005 MI
+
+[TMP]
+connection
+from
+206.47.209.10 MI
+(
+)
+at
+Mon MI
+Jul MI
+25 MI
+06:39:18 MI
+2005 MI
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+150.183.249.110 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+ip-216-69-169-168.ip.secureserver.net MI-3
+
+[TMP]
+session MA
+closed
+for
+user MA-0
+test MI-0
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+150.183.249.110 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+session MA
+opened
+for
+user MA-0
+news MI-0
+by
+(
+uid MA-1
+=
+0 MI-1
+)
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+211.137.205.253 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+connection
+from
+202.82.200.188 MI
+(
+)
+at
+Fri MI
+Jul MI
+1 MI
+07:57:30 MI
+2005 MI
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+massive.merukuru.org MI-3
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+60.30.224.116 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+session MA
+opened
+for
+user MA-0
+test MI-0
+by
+(
+uid MA-1
+=
+509 MI-1
+)
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+150.183.249.110 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+cupsd MA
+shutdown
+succeeded
+
+[TMP]
+notify
+question
+section
+contains
+no
+SOA MA
+
+[TMP]
+connection
+from
+82.252.162.81 MI
+(
+lns-vlq-45-tou-82-252-162-81.adsl.proxad.net MI
+)
+at
+Fri MI
+Jun MI
+17 MI
+20:55:06 MI
+2005 MI
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+202-132-40-29.adsl.ttn.net MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+Authentication
+failed
+from
+163.27.187.39 MI
+(
+163.27.187.39 MI
+)
+:
+Software
+caused
+connection
+abort
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+211-76-104-65.ebix.net.tw MI-3
+
+[TMP]
+connection
+from
+212.65.68.82 MI
+(
+)
+at
+Sat MI
+Jul MI
+16 MI
+08:14:04 MI
+2005 MI
+
+[TMP]
+session MA
+opened
+for
+user MA-0
+cyrus MI-0
+by
+(
+uid MA-1
+=
+0 MI-1
+)
+
+[TMP]
+connection
+from
+206.196.21.129 MI
+(
+host129.206.196.21.maximumasp.com MI
+)
+at
+Sat MI
+Jul MI
+9 MI
+22:53:22 MI
+2005 MI
+
+[TMP]
+session MA
+opened
+for
+user MA-0
+news MI-0
+by
+(
+uid MA-1
+=
+0 MI-1
+)
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+150.183.249.110 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+connection
+from
+82.252.162.81 MI
+(
+lns-vlq-45-tou-82-252-162-81.adsl.proxad.net MI
+)
+at
+Sat MI
+Jun MI
+18 MI
+02:08:10 MI
+2005 MI
+
+[TMP]
+PID
+hash
+table
+entries MA-0
+:
+512 MI-0
+(
+order MA-1
+9 MI-1
+:
+4096 MI-2
+bytes MA-2
+)
+
+[TMP]
+ALERT
+exited MA-0
+abnormally
+with
+[
+1 MI-0
+]
+
+[TMP]
+connection
+from
+203.101.45.59 MI
+(
+dsl-Chn-static-059.45.101.203.touchtelindia.net MI
+)
+at
+Sun MI
+Jul MI
+17 MI
+15:09:15 MI
+2005 MI
+
+[TMP]
+portmap MA
+startup
+succeeded
+
+[TMP]
+Kerberos MA
+authentication
+failed
+
+[TMP]
+User MA-0
+unknown MI-0
+timed
+out
+after
+900 MI-1
+seconds MA-1
+at
+Sat MI
+Jun MI
+18 MI
+02:23:10 MI
+2005 MI
+
+[TMP]
+check
+pass
+;
+user MA-0
+unknown MI-0
+
+[TMP]
+connection
+from
+211.42.188.206 MI
+(
+)
+at
+Fri MI
+Jul MI
+22 MI
+09:27:24 MI
+2005 MI
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+68.143.156.89.nw.nuvox.net MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+connection
+from
+211.72.2.106 MI
+(
+)
+at
+Tue MI
+Jul MI
+5 MI
+13:52:23 MI
+2005 MI
+
+[TMP]
+connection
+from
+217.187.83.50 MI
+(
+)
+at
+Mon MI
+Jul MI
+25 MI
+23:24:09 MI
+2005 MI
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+biblioteka.wsi.edu.pl MI-3
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+207.243.167.114 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+218.16.122.48 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+connection
+from
+211.42.188.206 MI
+(
+)
+at
+Fri MI
+Jul MI
+22 MI
+09:27:24 MI
+2005 MI
+
+[TMP]
+connection
+from
+82.68.222.195 MI
+(
+82-68-222-195.dsl.in-addr.zen.co.uk MI
+)
+at
+Sun MI
+Jul MI
+17 MI
+23:21:54 MI
+2005 MI
+
+[TMP]
+connection
+from
+172.181.208.156 MI
+(
+)
+at
+Tue MI
+Jul MI
+26 MI
+05:47:51 MI
+2005 MI
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+150.183.249.110 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+connection
+from
+211.107.232.1 MI
+(
+)
+at
+Fri MI
+Jul MI
+15 MI
+23:42:43 MI
+2005 MI
+
+[TMP]
+connection
+from
+83.116.207.11 MI
+(
+aml-sfh-3310b.adsl.wanadoo.nl MI
+)
+at
+Sun MI
+Jul MI
+17 MI
+06:14:36 MI
+2005 MI
+
+[TMP]
+connection
+from
+84.102.20.2 MI
+(
+)
+at
+Sun MI
+Jul MI
+24 MI
+02:38:22 MI
+2005 MI
+
+[TMP]
+authentication
+failure
+;
+logname MA
+=
+uid MA-0
+=
+0 MI-0
+euid MA-1
+=
+0 MI-1
+tty MA-2
+=
+NODEVssh MI-2
+ruser MA
+=
+rhost MA-3
+=
+218.16.122.48 MI-3
+user MA-4
+=
+root MI-4
+
+[TMP]
+connection
+from
+84.102.20.2 MI
+(
+)
+at
+Sun MI
+Jul MI
+24 MI
+02:38:22 MI
+2005 MI
+
+[TMP]
+session MA
+closed
+for
+user MA-0
+cyrus MI-0
+
+[TMP]
+ALERT
+exited MA-0
+abnormally
+with
+[
+1 MI-0
+]

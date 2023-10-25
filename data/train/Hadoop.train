@@ -1,0 +1,707 @@
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:9000 MI-0
+New MA-1
+:
+msra-sa-41:9000 MI-1
+
+[TMP]
+Retrying
+connect
+to
+server MA-0
+:
+msra-sa-41:8030 MI-0
+.
+Already
+tried
+0 MI-4
+time MA-4
+(
+s
+)
+;
+retry
+policy MA
+is
+RetryUpToMaximumCountWithFixedSleep MA
+(
+maxRetries MA-2
+=
+10 MI-2
+,
+sleepTime MA-3
+=
+1000 MI-3
+MILLISECONDS
+)
+
+[TMP]
+Retrying
+connect
+to
+server MA-0
+:
+msra-sa-41:8030 MI-0
+.
+Already
+tried
+0 MI-1
+time MA-1
+(
+s
+)
+;
+retry
+policy MA
+is
+RetryUpToMaximumCountWithFixedSleep MA
+(
+maxRetries MA-3
+=
+10 MI-3
+,
+sleepTime MA-4
+=
+1000 MI-4
+MILLISECONDS
+)
+
+[TMP]
+Progress
+of
+TaskAttempt MA-0
+attempt_1445144423722_0020_m_000006_0 MI-0
+is
+:
+0.19266446 MI
+
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:9000 MI-0
+New MA-1
+:
+msra-sa-41:9000 MI-1
+
+[TMP]
+Address
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:9000 MI-0
+New MA-1
+:
+msra-sa-41:9000 MI-1
+
+[TMP]
+Failed
+to
+renew
+lease MA
+for
+[
+DFSClient_NONMAPREDUCE_1537864556_1 MI
+]
+for
+328 MI
+seconds
+.
+Will
+retry
+shortly
+...
+
+[TMP]
+Processing
+the
+event
+EventType MA-0
+:
+CONTAINER_REMOTE_LAUNCH MI-0
+for
+container MA-1
+container_1445144423722_0020_01_000004 MI-1
+taskAttempt MA-2
+attempt_1445144423722_0020_m_000002_0 MI-2
+
+[TMP]
+Assigned
+container MA-0
+container_1445144423722_0020_01_000006 MI-0
+to
+attempt_1445144423722_0020_m_000004_0 MI
+
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:9000 MI-0
+New MA-1
+:
+msra-sa-41:9000 MI-1
+
+[TMP]
+MRAppMaster MA
+metrics
+system
+started
+
+[TMP]
+TaskAttempt MA-0
+:
+[
+attempt_1445144423722_0020_m_000001_0 MI-0
+]
+using
+containerId MA-1
+:
+[
+container_1445144423722_0020_01_000003 MI-1
+on
+NM MA-2
+:
+[
+MININT-FNANLI5.fareast.corp.microsoft.com:52368 MI-2
+]
+
+[TMP]
+Progress
+of
+TaskAttempt MA-0
+attempt_1445144423722_0020_m_000002_0 MI-0
+is
+:
+0.19212553 MI
+
+[TMP]
+Recalculating
+schedule
+,
+headroom MA
+=
+<
+memory MA-0
+:
+0 MI-0
+,
+vCores MA-1
+:
+-27 MI-1
+>
+
+[TMP]
+Reduce
+slow
+start
+threshold
+not
+met
+.
+completedMapsForReduceSlowstart MA-0
+1 MI-0
+
+[TMP]
+Opening
+proxy MA-0
+:
+04DN8IQ.fareast.corp.microsoft.com:54883 MI-0
+
+[TMP]
+task_1445144423722_0020_m_000002 MI-0
+Task MA-0
+Transitioned
+from
+NEW MI
+to
+SCHEDULED MI
+
+[TMP]
+Progress
+of
+TaskAttempt MA-0
+attempt_1445144423722_0020_m_000002_0 MI-0
+is
+:
+0.36317363 MI
+
+[TMP]
+Registering
+class MA-0
+org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType MI-0
+for
+class MA-0
+org.apache.hadoop.mapreduce.v2.app.MRAppMaster MI-0
+$
+TaskEventDispatcher MI
+
+[TMP]
+Recalculating
+schedule
+,
+headroom MA
+=
+<
+memory MA-0
+:
+0 MI-0
+,
+vCores MA-1
+:
+-27 MI-1
+>
+
+[TMP]
+Recalculating
+schedule
+,
+headroom MA
+=
+<
+memory MA-0
+:
+0 MI-0
+,
+vCores MA-1
+:
+-27 MI-1
+>
+
+[TMP]
+Progress
+of
+TaskAttempt MA-0
+attempt_1445144423722_0020_m_000006_0 MI-0
+is
+:
+0.36404583 MI
+
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:8030 MI-0
+New MA-1
+:
+msra-sa-41:8030 MI-1
+
+[TMP]
+Failed
+to
+renew
+lease MA
+for
+[
+DFSClient_NONMAPREDUCE_1537864556_1 MI
+]
+for
+173 MI
+seconds
+.
+Will
+retry
+shortly
+...
+
+[TMP]
+ERROR
+IN
+CONTACTING
+RM MA
+.
+
+[TMP]
+TaskAttempt MA-0
+:
+[
+attempt_1445144423722_0020_m_000004_0 MI-0
+]
+using
+containerId MA-1
+:
+[
+container_1445144423722_0020_01_000006 MI-1
+on
+NM MA-2
+:
+[
+MSRA-SA-41.fareast.corp.microsoft.com:7109 MI-2
+]
+
+[TMP]
+Progress
+of
+TaskAttempt MA-0
+attempt_1445144423722_0020_m_000001_0 MI-0
+is
+:
+0.079464614 MI
+
+[TMP]
+Failed
+to
+renew
+lease MA
+for
+[
+DFSClient_NONMAPREDUCE_1537864556_1 MI
+]
+for
+189 MI
+seconds
+.
+Will
+retry
+shortly
+...
+
+[TMP]
+job_1445144423722_0020Job MI
+Transitioned
+from
+NEW MI
+to
+INITED MI
+
+[TMP]
+Retrying
+connect
+to
+server MA-0
+:
+msra-sa-41:8030 MI-0
+.
+Already
+tried
+0 MI-1
+time MA-1
+(
+s
+)
+;
+retry
+policy MA
+is
+RetryUpToMaximumCountWithFixedSleep MA
+(
+maxRetries MA-3
+=
+10 MI-3
+,
+sleepTime MA-4
+=
+1000 MI-4
+MILLISECONDS
+)
+
+[TMP]
+Failed
+to
+renew
+lease MA
+for
+[
+DFSClient_NONMAPREDUCE_1537864556_1 MI
+]
+for
+339 MI
+seconds
+.
+Will
+retry
+shortly
+...
+
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:8030 MI-0
+New MA-1
+:
+msra-sa-41:8030 MI-1
+
+[TMP]
+attempt_1445144423722_0020_m_000009_0 MI-0
+TaskAttempt MA-0
+Transitioned
+from
+UNASSIGNED MI
+to
+ASSIGNED MI
+
+[TMP]
+Reduce
+slow
+start
+threshold
+not
+met
+.
+completedMapsForReduceSlowstart MA-0
+1 MI-0
+
+[TMP]
+Recalculating
+schedule
+,
+headroom MA
+=
+<
+memory MA-0
+:
+10240 MI-0
+,
+vCores MA-1
+:
+-17 MI-1
+>
+
+[TMP]
+Failed
+to
+renew
+lease MA
+for
+[
+DFSClient_NONMAPREDUCE_1537864556_1 MI
+]
+for
+270 MI
+seconds
+.
+Will
+retry
+shortly
+...
+
+[TMP]
+Recalculating
+schedule
+,
+headroom MA
+=
+<
+memory MA-0
+:
+0 MI-0
+,
+vCores MA-1
+:
+-27 MI-1
+>
+
+[TMP]
+Progress
+of
+TaskAttempt MA-0
+attempt_1445144423722_0020_m_000000_0 MI-0
+is
+:
+0.10635664 MI
+
+[TMP]
+Reduce
+slow
+start
+threshold
+not
+met
+.
+completedMapsForReduceSlowstart MA-0
+1 MI-0
+
+[TMP]
+Retrying
+connect
+to
+server MA-0
+:
+msra-sa-41:8030 MI-0
+.
+Already
+tried
+0 MI-1
+time MA-1
+(
+s
+)
+;
+retry
+policy MA
+is
+RetryUpToMaximumCountWithFixedSleep MA
+(
+maxRetries MA-3
+=
+10 MI-3
+,
+sleepTime MA-4
+=
+1000 MI-4
+MILLISECONDS
+)
+
+[TMP]
+getResources MA
+(
+)
+for
+application_1445144423722_0020 MI
+:
+ask MA-0
+=
+4 MI-0
+release MA-1
+=
+0 MI-1
+newContainers MA-2
+=
+0 MI-2
+finishedContainers MA-3
+=
+0 MI-3
+resourcelimit MA
+=
+<
+memory MA-4
+:
+7168 MI-4
+,
+vCores MA-5
+:
+-20 MI-5
+>
+knownNMs MA-6
+=
+4 MI-6
+
+[TMP]
+Retrying
+connect
+to
+server MA-0
+:
+msra-sa-41:8030 MI-0
+.
+Already
+tried
+0 MI-1
+time MA-1
+(
+s
+)
+;
+retry
+policy MA
+is
+RetryUpToMaximumCountWithFixedSleep MA
+(
+maxRetries MA-3
+=
+10 MI-3
+,
+sleepTime MA-4
+=
+1000 MI-4
+MILLISECONDS
+)
+
+[TMP]
+ERROR
+IN
+CONTACTING
+RM MA
+.
+
+[TMP]
+Got
+allocated
+containers MA-0
+1 MI-0
+
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:9000 MI-0
+New MI-1
+:
+msra-sa-41:9000 MI-1
+
+[TMP]
+Progress
+of
+TaskAttempt MA-0
+attempt_1445144423722_0020_m_000002_0 MI-0
+is
+:
+0.27772525 MI
+
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:9000 MI-0
+New MI-1
+:
+msra-sa-41:9000 MI-1
+
+[TMP]
+attempt_1445144423722_0020_m_000002_0 MI-0
+TaskAttempt MA-0
+Transitioned
+from
+RUNNING MI
+to
+FAIL_CONTAINER_CLEANUP MI
+
+[TMP]
+Address MA
+change
+detected
+.
+Old MA-0
+:
+msra-sa-41/10.190.173.170:9000 MI-0
+New MA-1
+:
+msra-sa-41:9000 MI-1
+
+[TMP]
+Reduce
+slow
+start
+threshold
+not
+met
+.
+completedMapsForReduceSlowstart MA-0
+1 MI-0
+

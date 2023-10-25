@@ -1,0 +1,3139 @@
+[TMP]
+CMD
+``
+sudo
+cinder-rootwrap
+/etc/cinder/rootwrap.conf
+env
+LC_ALL
+=
+C
+lvs
+--
+noheadings
+--
+unit
+=
+g
+-o
+vg_name
+,
+name
+,
+size
+--
+nosuffix
+cinder-volumes2
+''
+returned
+:
+0
+in
+0.726s
+
+[TMP]
+Trigger
+reload_allocations MA
+for
+port MA
+admin_state_up MA-0
+=
+True MI-0
+,
+allowed_address_pairs MA
+=
+[
+]
+,
+binding
+:
+host_id MA-1
+=
+localhost.localdomain MI-1
+,
+binding
+:
+profile
+=
+,
+binding
+:
+vif_details
+=
+,
+binding
+:
+vif_type MA-2
+=
+unbound MI-2
+,
+binding
+:
+vnic_type MA-3
+=
+normal MI-3
+,
+created_at MA-4
+=
+2018-06-27T07:31:05Z MI-4
+,
+description
+=
+,
+device_id MA-5
+=
+56db0f03-dc04-4314-a769-1744792dccb3 MI-5
+,
+device_owner MA
+=
+network
+:
+router_interface
+,
+extra_dhcp_opts
+=
+[
+]
+,
+fixed_ips MA-6
+=
+[STRUCT] MI-6
+,
+id MA-7
+=
+4a0385b5-26a5-426b-aa55-e33d4047c5f6 MI-7
+,
+mac_address MA
+=
+fa:16:3e
+:
+f5
+:
+a5:50
+,
+name
+=
+,
+network_id MA-8
+=
+3be927d9-5c12-4b4a-974a-de5f01d35e4c MI-8
+,
+port_security_enabled MA-9
+=
+False MI-9
+,
+project_id MA-10
+=
+22d53f815e814769b43b503c8a9ab7b0 MI-10
+,
+revision_number MA-11
+=
+4 MI-11
+,
+security_groups MA
+=
+[
+]
+,
+status MA-12
+=
+DOWN MI-12
+,
+tags MA
+=
+[
+]
+,
+tenant_id MA-13
+=
+22d53f815e814769b43b503c8a9ab7b0 MI-13
+,
+updated_at MA-14
+=
+2018-06-27T07:31:06Z MI-14
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.plugins.ml2.plugin.Ml2Plugin._ensure_default_security_group_handler-8077611 MI-0
+''
+]
+for
+port MA
+,
+before_update MI
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:468
+started
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.services.segments.db._update_segment_host_mapping_for_agent-8748386490794 MI-0
+''
+]
+for
+agent MA
+,
+after_update MI
+
+[TMP]
+CMD
+``
+sudo
+cinder-rootwrap
+/etc/cinder/rootwrap.conf
+env
+LC_ALL
+=
+C
+vgs
+--
+noheadings
+--
+unit
+=
+g
+-o
+name
+,
+size
+,
+free
+,
+lv_count
+,
+uuid
+--
+separator
+:
+--
+nosuffix
+cinder-volumes2
+''
+returned
+:
+0
+in
+1.010s
+
+[TMP]
+Terminate
+volume MA
+connection
+completed
+successfully
+.
+
+[TMP]
+CMD
+``
+iscsiadm
+-m
+node
+-T
+iqn.2010-10.org.openstack MA-0
+:
+volume-d0dc5186-c1b0-459c-9166-c528730bdef3 MI-0
+-p MA-1
+10.0.20.23:3260 MI-1
+--
+op
+update
+-n MA-2
+node.session.auth.username MI-2
+-v MA-3
+U2bt33h5BYNZzvPzxdnW MI-3
+''
+returned MA-4
+:
+0 MI-4
+in
+0.008s MI
+
+[TMP]
+10.0.20.23 MI
+``
+GET MA
+/v2.0/floatingips?fixed_ip_address=172.24.4.12&port_id=3bcb5505-8394-4288-9cf1-f80fb69834e3 MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+217 MI-1
+time MA-2
+:
+0.0382760 MI-2
+
+[TMP]
+Acquired
+semaphore MA-0
+``
+dhcp-agent-network-lock-88a574ba-2b7a-4957-bc56-4c940a03b77e MI-0
+''
+
+[TMP]
+Running
+cmd
+(
+subprocess
+)
+:
+sudo
+cinder-rootwrap
+/etc/cinder/rootwrap.conf
+env
+LC_ALL
+=
+C
+lvs
+--
+noheadings
+--
+unit
+=
+g
+-o
+vg_name
+,
+name
+,
+size
+--
+nosuffix
+cinder-volumes2
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0xe MI-1
+,
+msg_len MA-2
+=
+0x48 MI-2
+,
+xid MA-3
+=
+0xb2396581 MI-3
+,
+OFPFlowMod
+[STRUCT]
+result MA-4
+None MI-4
+
+[TMP]
+Policy
+check
+for
+os_compute_api MI
+:
+os-hide-server-addresses MI
+failed
+with
+credentials
+[STRUCT]
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0xdd434b73 MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MI-4
+
+[TMP]
+No
+protocol MA
+specified
+in
+for
+api_server MA-0
+``
+http://10.0.20.23:9292 MI-0
+''
+,
+please
+update
+[
+glance
+]
+api_servers MA
+with
+fully
+qualified
+url
+including
+scheme
+(
+http
+/
+https
+)
+
+[TMP]
+[
+instance MA-0
+:
+c1e72cd5-b1cc-430e-9fee-6f7080d5016e MI-0
+]
+Fetching
+instance MA
+by
+UUID
+
+[TMP]
+Listing
+1000
+instances MA
+in
+cell MA-0
+10fe8ece-686d-4d33-8fcc-3d4b81191949 MI-0
+(
+default
+)
+
+[TMP]
+Notify
+callbacks
+[
+]
+for
+port MA
+,
+precommit_create MI
+
+[TMP]
+Running
+command
+(
+rootwrap
+daemon
+)
+:
+[STRUCT]
+
+[TMP]
+10.0.20.25 MI
+``
+GET MA
+/v2.0/networks/tempest-private-1538198412 MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+404 MI-0
+len MA-1
+:
+334 MI-1
+time MA-2
+:
+0.3264508 MI-2
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:266
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.007
+
+[TMP]
+Skipping
+ARP
+spoofing
+rules
+for
+port MA-0
+``
+tapd0b05af3-4f MI-0
+''
+because
+it
+has
+port MA
+security
+disabled
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0xaf9fee5e MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MI-4
+
+[TMP]
+Auditing
+locally
+available
+compute
+resources
+for
+localhost.localdomain MI
+(
+node MA-0
+:
+localhost.localdomain MI-0
+)
+
+[TMP]
+Attributes MA-0
+excluded
+by
+policy
+engine
+:
+[
+``
+vlan_transparent MI-0
+''
+]
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:302
+started
+
+[TMP]
+Port MA-0
+7ae9b713-7458-4362-bb34-433b5a1ae0ac MI-0
+can
+not
+update
+to
+ACTIVE MI
+because
+it
+is
+not
+bound
+.
+
+[TMP]
+Version MA-0
+for
+resource MA-2
+type
+SecurityGroup MI-2
+changed
+None MI-0
+to
+1.0 MI-0
+on
+consumer
+Open
+vSwitch
+agent MA-1
+@
+localhost.localdomain MI-1
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:473
+started
+
+[TMP]
+Port MA-0
+3f5cc56c-45dc-4122-a8ff-cec3d0e1d837 MI-0
+updated
+.
+Details
+:
+[STRUCT]
+
+[TMP]
+Acquired
+semaphore MA-0
+``
+dhcp-agent-network-lock-23d99b63-3349-4969-95e1-851ba5b4f851 MI-0
+''
+
+[TMP]
+Starting
+request
+:
+10.0.20.36 MI
+``
+GET MA
+/placement/resource_providers/784b4cc0-5e0b-4958-b1ba-7c0ab9ee2f9a/aggregates MI
+''
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.plugins.ml2.plugin.Ml2Plugin._ensure_default_security_group_handler-1753139 MI-0
+''
+]
+for
+port MA
+,
+before_create MI
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0x739f4e7c MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MI-4
+
+[TMP]
+Unable
+to
+access
+/var/lib/neutron/external/pids/436c6f69-1334-4138-b008-a6862c1c84ec.pid MI
+
+[TMP]
+Running
+periodic
+task MA-0
+ComputeManager._check_instance_build_time MI-0
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.services.segments.db._update_segment_host_mapping_for_agent-8732404139946 MI-0
+''
+]
+for
+agent MA
+,
+after_update MI
+
+[TMP]
+Skipping
+ARP
+spoofing
+rules
+for
+port MA-0
+``
+tap59400409-cd MI-0
+''
+because
+it
+has
+port MA
+security
+disabled
+
+[TMP]
+Lock
+``
+event-dispatch MI
+''
+released
+by
+``
+neutron.plugins.ml2.ovo_rpc.dispatch_events MI
+''
+:
+:
+held
+0.450s MI
+
+[TMP]
+For
+port MA-0
+712adf09-9518-420f-a5ae-920e1bf3eb2c MI-0
+,
+host MA-1
+localhost.localdomain MI-1
+,
+got
+binding
+levels
+[STRUCT]
+
+[TMP]
+Releasing
+semaphore MA-0
+``
+iptables MI-0
+''
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.plugins.ml2.plugin.Ml2Plugin._ensure_default_security_group_handler-377131 MI-0
+''
+]
+for
+port MA
+,
+before_update MI
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:439
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.010
+
+[TMP]
+Notify
+agent MA-0
+at
+l3_agent.localhost.localdomain MI-0
+the
+message MA-1
+routers_updated MI-1
+
+[TMP]
+curl
+-g
+-i
+-X
+GET
+-H
+``
+Accept-Encoding
+:
+gzip
+,
+deflate
+''
+-H
+``
+Accept
+:
+*/*
+''
+-H
+``
+X-Auth-Token
+:
+{
+SHA1
+}
+1216a0c0dde32c92ca46e81729b6e799b109519c
+''
+-H
+``
+Connection MA-3
+:
+keep-alive MI-3
+''
+-H
+``
+User-Agent MA-2
+:
+python-glanceclient MI-2
+''
+-H
+``
+Content-Type MA-0
+:
+application/octet-stream MI-0
+''
+-H
+``
+X-OpenStack-Request-ID MA-1
+:
+req-c06c3be5-b204-4bd8-8af8-c4d2c6573d43 MI-1
+''
+http://10.0.20.25:9292/v2/schemas/image MI
+
+[TMP]
+Lock
+``
+949e1227-438b-4417-a6ee-c652bd840059 MI
+''
+acquired
+by
+``
+nova.context.get_or_set_cached_cell_and_set_connections MI
+''
+:
+:
+waited
+0.000s MI
+
+[TMP]
+10.0.20.20 MI
+``
+GET MA
+/v2.0/subnets?id=bfb87d49-666b-4ef8-816d-c11432d7d10c MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+843 MI-1
+time MA-2
+:
+0.1735370 MI-2
+
+[TMP]
+Lock
+``
+00000000-0000-0000-0000-000000000000 MI
+''
+released
+by
+``
+nova.context.get_or_set_cached_cell_and_set_connections MI
+''
+:
+:
+held
+0.002s MI
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0xe3362226 MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MI-4
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:405
+started
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.services.segments.db._update_segment_host_mapping_for_agent-8789510787498 MI-0
+''
+]
+for
+agent MA
+,
+after_update MI
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:421
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.009
+
+[TMP]
+Resource
+Port MA-0
+3801d323-709e-4afa-a849-39b81b5028ee MI-0
+updated
+(
+revision_number
+4-
+>
+5
+)
+.
+Old
+fields MA-1
+:
+[STRUCT] MI-1
+New
+fields MA-2
+:
+[STRUCT] MI-2
+
+[TMP]
+Running
+command
+(
+rootwrap
+daemon
+)
+:
+[
+``
+iptables-save MI
+''
+]
+
+[TMP]
+Update
+security
+group
+information
+
+[TMP]
+Quota MA
+usage
+for
+security_group_rule MI
+was
+recalculated
+.
+Used
+quota:6
+.
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:293
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.011
+
+[TMP]
+Unable
+to
+access
+/var/lib/neutron/dhcp/ba6899fc-b7da-43d8-95d0-03029e586507/pid MI
+
+[TMP]
+Running
+cmd
+
+[TMP]
+Resource
+Port MA-0
+94165205-b7b9-4a56-bcfe-eef8d1327f5b MI-0
+updated
+(
+revision_number
+6-
+>
+7
+)
+.
+Old
+fields MA-1
+:
+[STRUCT] MI-1
+New
+fields MA-2
+:
+[STRUCT] MI-2
+
+[TMP]
+For
+port MA-0
+c885100c-3b2f-4a1c-a5c2-b4c1a3090646 MI-0
+,
+host MA-1
+localhost.localdomain MI-1
+,
+got
+binding
+levels
+[STRUCT]
+
+[TMP]
+Resource
+Port MA-0
+41567033-bb25-4fc7-9379-2dcb4ab2cbe8 MI-0
+updated
+(
+revision_number
+8-
+>
+9
+)
+.
+Old
+fields MA-1
+:
+[STRUCT] MI-1
+New
+fields MA-2
+:
+[STRUCT] MI-2
+
+[TMP]
+10.0.20.25 MI
+``
+GET MA
+/v2.0/ports?device_id=9d9daaf5-f7c0-4c06-ac7d-982cf08668bb MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+1123 MI-1
+time MA-2
+:
+0.6986749 MI-2
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0x6b538ecf MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MA-4
+
+[TMP]
+Task MA-0
+``
+cinder.volume.flows.manager.create_volume.ExtractVolumeRefTask MI-0
+;
+volume MA-1
+:
+create
+''
+(
+58dc7b26-71b3-412a-9850-ae7eed521ae9 MI-1
+)
+transitioned
+into
+state MA-2
+``
+SUCCESS MI-2
+''
+from
+state MA-3
+``
+RUNNING MI-3
+''
+with
+result
+``
+Volume MA
+[STRUCT]
+''
+
+[TMP]
+Configuration
+for
+devices MA-0
+up
+[
+``
+5530b8a6-29ac-403d-a1cc-74e37b305633 MI-0
+''
+]
+and
+devices MA
+down
+[
+]
+completed
+.
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:265
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.010
+
+[TMP]
+10.0.20.25 MI
+``
+GET MA
+/v2.0/routers/tempest-router-1530154371 MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+404 MI-0
+len MA-1
+:
+334 MI-1
+time MA-2
+:
+0.4896460 MI-2
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0x6964a6a7 MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MI-4
+
+[TMP]
+[
+instance MA-0
+:
+d4c14532-cc27-4270-a45f-1229bbee8ef1 MI-0
+]
+Synchronizing
+instance MA
+power
+state
+after
+lifecycle
+event MA-1
+``
+Started MI-1
+''
+;
+current
+vm_state MA-2
+:
+active MI-2
+,
+current
+task_state MA-3
+:
+None MI-3
+,
+current
+DB
+power_state MA-4
+:
+1 MI-4
+,
+VM
+power_state MA-5
+:
+1 MI-5
+
+[TMP]
+Policy
+check
+for
+os_compute_api MI
+:
+os-hide-server-addresses MI
+failed
+with
+credentials
+[STRUCT]
+
+[TMP]
+[
+instance MA-0
+:
+bcac60c9-7798-4874-a88e-2c21cc58bdeb MI-0
+]
+_get_instance_nw_info MI
+(
+)
+
+[TMP]
+[
+instance MA-0
+:
+b2497eeb-b5e0-4cea-84f4-55c9f7d02197 MI-0
+]
+Fetching
+instance MA
+by
+UUID
+
+[TMP]
+Calling
+method MA
+``
+<
+bound
+method MA-0
+ServersController.show-0
+of
+<
+nova.api.openstack.compute.servers.ServersController MI-1
+object MA-1
+at
+0x7f1551457d10 MI
+>
+>
+''
+
+[TMP]
+GET MA
+http://10.0.20.46:8776 MI
+/v3/71ea52d094344aa8ab5e0e5b41870b26/volumes/8844f36e-0c01-4e48-a5b9-6cf6d8428a5d MI
+
+[TMP]
+Attempted
+to
+remove
+chain MA-0
+s4a001037-b MI-0
+which
+does
+not
+exist
+
+[TMP]
+Version MA-0
+for
+resource MA-2
+type
+Log MI-2
+changed
+None MI-0
+to
+1.0 MI-0
+on
+consumer
+Open
+vSwitch
+agent MA-1
+@
+localhost.localdomain MI-1
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:244
+completed
+.
+Processed
+ports MI
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.012
+
+[TMP]
+Reloaded
+policy
+file MA-0
+:
+/etc/cinder/policy.json MI-0
+
+[TMP]
+Auditing
+locally
+available
+compute
+resources
+for
+localhost.localdomain MI
+(
+node MA-0
+:
+localhost.localdomain MI-0
+)
+
+[TMP]
+For
+port MA-0
+17e141c5-311e-4c8f-9435-c577710c38d5 MI-0
+,
+host MA-1
+localhost.localdomain MI-1
+,
+got
+binding
+levels
+[STRUCT]
+
+[TMP]
+Running
+periodic
+task MA-0
+SchedulerManager._expire_reservations MI-0
+
+[TMP]
+IPTablesManager.apply MI
+completed
+with
+success
+.
+0
+iptables
+commands
+were
+issued
+
+[TMP]
+Lazy-loading
+``
+info_cache MI
+''
+on
+Instance MA-0
+uuid
+8d314b55-288b-4cb3-82d4-29606c37351d MI-0
+
+[TMP]
+Update
+security
+group
+information
+
+[TMP]
+Filter
+ImagePropertiesFilter MI
+returned MA-0
+1 MI-0
+host MA
+(
+s
+)
+
+[TMP]
+10.0.20.25 MI
+``
+GET MA
+/v2.0/security-groups?id=4bbb6f2a-32ed-4418-ad8b-c748db1c41ab MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+2118 MI-1
+time MA-2
+:
+0.1355810 MI-2
+
+[TMP]
+Port MA-0
+672fb6b4-c5fb-48de-854e-4dab02b52135 MI-0
+updated
+.
+Details
+:
+[STRUCT]
+
+[TMP]
+iscsiadm
+(
+``
+-m
+''
+,
+``
+session
+''
+)
+:
+stdout
+=
+tcp
+:
+[
+52
+]
+10.0.20.25:3260,1 MI
+iqn.2010-10.org.openstack MA-0
+:
+volume-f7fb3555-7932-482d-9ba7-47ab7d0b1526 MI-0
+(
+non-flash
+)
+
+[TMP]
+Lock
+``
+(
+``
+localhost.localdomain MI
+''
+,
+``
+localhost.localdomain MI
+''
+)
+''
+acquired
+by
+``
+nova.scheduler.host_manager._locked_update MI
+''
+:
+:
+waited
+0.000s MI
+
+[TMP]
+[
+instance MA-0
+:
+6bff717b-6d29-4364-a227-326096346cfc MI-0
+]
+Instance MA
+network_info MI
+:
+|
+[STRUCT]
+|
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:233
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.013
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:396
+started
+
+[TMP]
+Option
+``
+dhcp_domain MI
+''
+from
+group MA-0
+``
+DEFAULT MI-0
+''
+is
+deprecated
+for
+removal
+[STRUCT]
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:220
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.008
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:262
+started
+
+[TMP]
+No
+protocol MA
+specified
+in
+for
+api_server MA-0
+``
+http://10.0.20.25:9292 MI-0
+''
+,
+please
+update
+[
+glance
+]
+api_servers MA
+with
+fully
+qualified
+url
+including
+scheme
+(
+http
+/
+https
+)
+
+[TMP]
+Attached
+iSCSI
+volume MA-0
+[STRUCT] MI-0
+
+[TMP]
+Running
+periodic
+task MA-0
+SchedulerManager._run_periodic_tasks MI-0
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:503
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.011
+
+[TMP]
+CMD
+``
+iscsiadm
+-m
+node
+-T
+iqn.2010-10.org.openstack MA-0
+:
+volume-70ece9f3-d782-49e4-a448-cedc77e6b943 MI-0
+-p MA-2
+10.0.20.26:3260 MI-2
+--
+interface
+default
+--
+op
+new
+''
+returned MA-1
+:
+0 MI-1
+in
+0.013s MI
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:388
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.012
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:290
+started
+
+[TMP]
+CMD
+``
+/usr/bin/python2
+-m
+oslo_concurrency.prlimit
+--
+as
+=
+1073741824
+--
+cpu
+=
+30
+--
+env
+LC_ALL
+=
+C
+LANG
+=
+C
+qemu-img
+info
+/var/lib/nova/instances/dc655a65-3d3d-4e86-bd03-532a714c2b11/disk
+--
+force-share
+''
+returned
+:
+0
+in
+0.125s
+
+[TMP]
+No
+protocol MA
+specified
+in
+for
+api_server MA-0
+``
+http://10.0.20.28:9292 MI-0
+''
+,
+please
+update
+[
+glance
+]
+api_servers MA
+with
+fully
+qualified
+url
+including
+scheme
+(
+http
+/
+https
+)
+
+[TMP]
+GET MA
+call
+to
+image MA
+for
+http://10.0.20.26:9292 MI
+/v2/images/f3b0b3c3-7cdc-4db0-854e-3fd4bd533767 MI
+used
+request MA-0
+id
+req-bfb77212-e3f9-4ddf-8455-be5340240a24 MI-0
+
+[TMP]
+10.0.20.22 MI
+``
+GET MA
+/placement/resource_providers/c6e9dfcd-2003-4a6a-937a-a739a9086f40/allocations MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+252 MI-1
+microversion MA-2
+:
+1.0 MI-2
+
+[TMP]
+GET MA
+call
+to
+image MA
+for
+http://10.0.20.44:9292 MI
+/v2/schemas/image MI
+used
+request MA-0
+id
+req-4c9f87b8-1a00-4f6c-97f9-9158e0551a11 MI-0
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:480
+-
+starting
+polling
+.
+Elapsed:0.013
+
+[TMP]
+Acquired
+semaphore MA-0
+``
+dhcp-agent-network-lock-c08fab5d-e5e1-4c09-8816-1b94c7f15a4a MI-0
+''
+
+[TMP]
+Running
+periodic
+task MA-0
+VolumeManager._publish_service_capabilities MI-0
+
+[TMP]
+iscsiadm
+[STRUCT]
+:
+stdout
+=
+stderr
+=
+
+[TMP]
+Lock
+``
+c7839124-f5e8-4dac-a2eb-becff999b1db MI
+''
+released
+by
+``
+nova.compute.manager.do_reserve MI
+''
+:
+:
+held
+0.234s MI
+
+[TMP]
+Assigning
+3 MI
+as
+local
+vlan MA
+for
+net-id MA-0
+=
+1a5d503c-77cc-4d0e-bb41-c3f422c715ad MI-0
+
+[TMP]
+11.111.1.4,10.0.20.23 MI
+``
+GET MA
+/2009-04-04/meta-data/public-hostname MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+161 MI-1
+time MA-2
+:
+0.0020580 MI-2
+
+[TMP]
+Calling
+method MA
+``
+<
+bound
+method MA-0
+ServersController.show MI-0
+of
+<
+nova.api.openstack.compute.servers.ServersController MI-1
+object MA-1
+at
+0x7fb9fa4bd9d0 MI
+>
+>
+''
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.services.segments.db._update_segment_host_mapping_for_agent MI-0
+--
+9223363259732465848 MI
+''
+]
+for
+agent MA
+,
+after_update MI
+
+[TMP]
+Lock
+``
+compute_resources MI
+''
+acquired
+by
+``
+nova.compute.resource_tracker._update_available_resource MI
+''
+:
+:
+waited
+0.000s MI
+
+[TMP]
+Running
+command
+(
+rootwrap
+daemon
+)
+:
+[STRUCT]
+
+[TMP]
+Port MA-0
+cf92ebb3-5ecc-4b6e-bd8f-93bc19c1f802 MI-0
+can
+not
+update
+to
+ACTIVE MI
+because
+it
+is
+not
+bound
+.
+
+[TMP]
+Reloading
+cached
+file MA-0
+/etc/neutron/policy.json MI-0
+
+[TMP]
+10.0.20.25 MI
+``
+GET MA
+/v2.0/ports?device_id=5c0b86a1-f568-4474-9f7e-3b1310586d5e MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+1124 MI-1
+time MA-2
+:
+0.6240032 MI-2
+
+[TMP]
+Lock
+``
+compute_resources MI
+''
+acquired
+by
+``
+nova.compute.resource_tracker._update_available_resource MI
+''
+:
+:
+waited
+0.000s MI
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.api.rpc.handlers.securitygroups_rpc.SecurityGroupServerAPIShim._handle_sg_rule_update MI-0
+--
+9223372036854502589 MI
+''
+]
+for
+SecurityGroupRule MI
+,
+after_update MI
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0x5f62810a MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MI-4
+
+[TMP]
+port_update MI-0
+message MA-0
+processed
+for
+port MA-1
+72ef35c7-c324-4f65-a4ab-640af630fe8f MI-1
+
+[TMP]
+Attach
+volume MA
+completed
+successfully
+.
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0xe MI-1
+,
+msg_len MA-2
+=
+0x40 MI-2
+,
+xid MA-3
+=
+0x4469acf MI-3
+,
+OFPFlowMod
+[STRUCT]
+result MA-4
+None MI-4
+
+[TMP]
+Compute
+driver
+doesn
+''
+t
+require
+allocation
+refresh
+and
+we
+''
+re
+on
+a
+compute
+host MA
+in
+a
+deployment
+that
+only
+has
+compute
+hosts MA
+with
+Nova
+versions MA-0
+>
+=
+16 MI-0
+(
+Pike MI-0
+)
+.
+Skipping
+auto-correction
+of
+allocations
+.
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0xe MI-1
+,
+msg_len MA-2
+=
+0x48 MI-2
+,
+xid MA-3
+=
+0x62407956 MI-3
+,
+OFPFlowMod
+[STRUCT]
+result MA-4
+None MI-4
+
+[TMP]
+10.0.20.25 MI
+``
+GET MA
+/v2.0/security-groups?fields=id&id=b9cc0f21-c07c-43aa-bc14-722945791798 MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+267 MI-1
+time MA-2
+:
+0.7001071 MI-2
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:276
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.008
+
+[TMP]
+Starting
+request MA
+:
+10.0.20.25 MI
+``
+GET MA
+/placement/resource_providers/79e0bbc9-cf70-417c-a6be-7df1481a6b20/aggregates MI
+''
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:363
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.013
+
+[TMP]
+[
+instance MA-0
+:
+f14c2b46-9095-4307-a38c-260473ea3ec3 MI-0
+]
+Updated
+the
+network
+info_cache MI
+for
+instance MA
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:270
+-
+port MA
+information
+retrieved
+.
+Elapsed:0.041
+
+[TMP]
+[
+instance MA-0
+:
+522877e5-683d-4c42-8898-d19cdac89019 MI-0
+]
+Synchronizing
+instance MA
+power
+state
+after
+lifecycle
+event MA-0
+``
+Started MI-0
+''
+;
+current
+vm_state MA-1
+:
+active MI-1
+,
+current
+task_state MA-2
+:
+None MI-2
+,
+current
+DB
+power_state MA-3
+:
+1 MI-3
+,
+VM
+power_state MA-4
+:
+1 MI-4
+
+[TMP]
+Running
+command
+(
+rootwrap
+daemon
+)
+:
+[STRUCT]
+
+[TMP]
+Consumed
+1 MI
+GB
+from
+backend
+:
+host MA-0
+``
+localhost.localdomain MI-0
+@
+lvm
+#
+lvm
+''
+:
+free_capacity_gb MA-1
+:
+47.93 MI-1
+,
+total_capacity_gb MA-2
+:
+48.93 MI-2
+,
+allocated_capacity_gb MA-3
+:
+1 MI-3
+,
+max_over_subscription_ratio MA-4
+:
+1.0 MI-4
+,
+reserved_percentage MI-5
+:
+0 MA-5
+,
+provisioned_capacity_gb MA-6
+:
+1.0 MI-6
+,
+thin_provisioning_support MA-7
+:
+True MI-7
+,
+thick_provisioning_support MA-8
+:
+False MI-8
+,
+pools MA-9
+:
+None MI-9
+,
+updated
+at
+:
+2018-09-28 MI
+21:28:26.313434 MI
+
+[TMP]
+Notify
+callbacks MA-0
+[
+``
+neutron.services.segments.db._update_segment_host_mapping_for_agent-8754087476530 MI-0
+''
+]
+for
+agent MA
+,
+after_update MI
+
+[TMP]
+Acquired
+semaphore MA-0
+``
+dhcp-agent-network-lock-2e2f56bf-b261-4101-99e1-5b4576d74b01 MI-0
+''
+
+[TMP]
+MySQL
+server
+mode MA-0
+set
+to
+STRICT_TRANS_TABLES MI-0
+,
+STRICT_ALL_TABLES MI-0
+,
+NO_ZERO_IN_DATE MI-0
+,
+NO_ZERO_DATE MI-0
+,
+ERROR_FOR_DIVISION_BY_ZERO MI-0
+,
+TRADITIONAL MI-0
+,
+NO_AUTO_CREATE_USER MI-0
+,
+NO_ENGINE_SUBSTITUTION MI-0
+
+[TMP]
+Running
+cmd
+(
+subprocess
+)
+:
+blockdev
+--
+flushbufs
+/dev/sdb
+
+[TMP]
+Resource
+Port MA-0
+e290151a-dbb8-46a4-b637-48293c736e3d MI-0
+updated
+(
+revision_number MI
+5-
+>
+6
+)
+.
+Old
+fields MA-1
+:
+[STRUCT] MI-1
+New
+fields MA-2
+:
+[STRUCT] MI-2
+
+[TMP]
+Running
+command
+(
+rootwrap
+daemon
+)
+:
+[STRUCT]
+
+[TMP]
+10.0.20.23 MI
+``
+GET MA
+/v2.0/routers MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+1411 MI-1
+time MA-2
+:
+0.1787620 MI-2
+
+[TMP]
+Calling
+delete_port MI
+for
+277ec3a1-2699-49d9-a3f2-3aa41408064c MI
+owned
+by
+network MA-0
+:
+dhcp MI-0
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:200
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.009
+
+[TMP]
+Device MA-0
+3676f0b0-45b6-4833-8937-e5cd7ea32662 MI-0
+no
+longer
+exists
+at
+agent MA-1
+ovs-agent-localhost.localdomain MI-1
+
+[TMP]
+Reloading
+cached
+file MA-0
+/etc/neutron/policy.json MI-0
+
+[TMP]
+10.0.20.20 MI
+``
+GET MA
+/v2.0/security-groups?fields=id&id=93a2c672-4150-4d9d-b630-ecb702f763b3 MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+267 MI-1
+time MA-2
+:
+1.2950349 MI-2
+
+[TMP]
+Lock
+``
+7d2d29ce-c1fb-484d-a8c0-d22d93f3a902 MI
+''
+released
+by
+``
+nova.context.get_or_set_cached_cell_and_set_connections MI
+''
+:
+:
+held
+0.001s MI
+
+[TMP]
+HTTP
+exception
+thrown
+:
+Flavor MA-0
+m1.tiny MI-0
+could
+not
+be
+found
+.
+
+[TMP]
+CMD
+``
+ovs-vsctl
+--
+timeout MA-0
+=
+120 MI-0
+--
+--
+if-exists
+del-port
+qvod5c13e0d-a1
+--
+add-port
+br-int
+qvod5c13e0d-a1
+--
+set
+Interface
+qvod5c13e0d-a1
+external-ids
+:
+iface-id MA-1
+=
+d5c13e0d-a1b8-4e5f-bb51-fb70c655c2aa MI-1
+external-ids
+:
+iface-status
+=
+active
+external-ids
+:
+attached-mac
+=
+fa:16:3e:63:23
+:
+ee
+external-ids
+:
+vm-uuid MA-2
+=
+0ed9dc87-56df-4b5f-b24a-4f02e4d0d20f MI-2
+''
+returned MA-3
+:
+0 MI-3
+in
+0.049s MI
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:219
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.012
+
+[TMP]
+Lock
+``
+207d3421-8e68-4ec6-a61c-47da5c989f5f MI
+''
+released
+by
+``
+nova.context.get_or_set_cached_cell_and_set_connections MI
+''
+:
+:
+held
+0.001s MI
+
+[TMP]
+[
+instance MA-0
+:
+4e45a75a-52b7-4178-9213-0f28b22dce7c MI-0
+]
+allocate_for_instance MI
+(
+)
+
+[TMP]
+Lock
+``
+33ddd5a9-57b2-4fc6-bb77-252a0aff0e9c MI
+''
+acquired
+by
+``
+nova.context.get_or_set_cached_cell_and_set_connections MI
+''
+:
+:
+waited
+0.000s MI
+
+[TMP]
+ofctl
+request
+version MA-0
+=
+0x4 MI-0
+,
+msg_type MA-1
+=
+0x12 MI-1
+,
+msg_len MA-2
+=
+0x38 MI-2
+,
+xid MA-3
+=
+0x79681e49 MI-3
+,
+OFPFlowStatsRequest
+[STRUCT]
+result MA-4
+[STRUCT] MI-4
+
+[TMP]
+All
+active
+networks MA
+have
+been
+fetched
+through
+RPC MI
+.
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:302
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.008
+
+[TMP]
+Chosen
+-1
+:
+-1
+:
+-1
+limits
+65536:65536:65536 MI
+
+[TMP]
+Get
+all
+volumes MA
+completed
+successfully
+.
+
+[TMP]
+GET MA
+call
+to
+image MA
+for
+http://10.0.20.23:9292 MI
+/v2/images/176cc2a1-5230-41dc-834f-a008eda550cf MI
+used
+request MA-0
+id
+req-23293d73-9ba9-411f-b7bd-60dc77f89259 MI-0
+
+[TMP]
+Auditing
+locally
+available
+compute
+resources
+for
+localhost.localdomain MI
+(
+node MA-0
+:
+localhost.localdomain MI-0
+)
+
+[TMP]
+Agent MA-0
+rpc_loop MI-0
+-
+iteration:305
+completed
+.
+Processed
+ports MA
+statistics
+:
+[STRUCT]
+.
+Elapsed:0.009
+
+[TMP]
+HTTP MA
+exception
+thrown
+:
+Invalid
+input
+received
+:
+Invalid
+volume MA
+:
+Volume
+status MA-0
+must
+be
+available MI-0
+to
+reserve
+,
+but
+the
+status MA-1
+is
+error MI-1
+.
+(
+HTTP MA-2
+400 MI-2
+)
+(
+Request-ID MA-3
+:
+req-1e50faf1-1c30-46bf-8a32-58a4522f85a6 MI-3
+)
+
+[TMP]
+Returning
+400 MI
+to
+user
+:
+Invalid
+input
+received
+:
+Invalid
+volume MA
+:
+Volume
+status MA-0
+must
+be
+available MI-0
+to
+reserve
+,
+but
+the
+status MA-1
+is
+error MI-1
+.
+(
+HTTP MA-2
+400 MI-2
+)
+(
+Request-ID MA-3
+:
+req-1e50faf1-1c30-46bf-8a32-58a4522f85a6 MI-3
+)
+
+[TMP]
+10.0.20.26 MI
+``
+POST MA
+/v2.1/b90cb75dcc844886be13556584e2bc54/servers/cf1716cf-f068-4999-8cf7-98812c45bc1d/os-volume_attachments MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+400 MI-0
+len MA-1
+:
+641 MI-1
+time MA-2
+:
+3.4256291 MI-2
+
+[TMP]
+RESP MA-0
+:
+[
+400 MI-0
+]
+Content-Length MA-1
+:
+128 MI-1
+Content-Type MA-2
+:
+application/json MI-2
+X-Compute-Request-Id MA-3
+:
+req-1e50faf1-1c30-46bf-8a32-58a4522f85a6 MI-3
+X-Openstack-Request-Id MA-4
+:
+req-1e50faf1-1c30-46bf-8a32-58a4522f85a6 MI-4
+Date MA
+:
+Sat MI
+,
+29 MI
+Sep MI
+2018 MI
+20:15:47 MI
+GMT MI
+Connection MA-5
+:
+keep-alive MI-5
+
+[TMP]
+Returning
+400 MI
+to
+user
+:
+Invalid
+input
+received
+:
+Invalid
+volume MA
+:
+Volume
+status MA-0
+must
+be
+available MI-0
+to
+reserve
+,
+but
+the
+status MA-1
+is
+error MI-1
+.
+(
+HTTP MA-2
+400 MI-2
+)
+(
+Request-ID MA-3
+:
+req-1e50faf1-1c30-46bf-8a32-58a4522f85a6 MI-3
+)
+
+[TMP]
+Returning
+400 MI
+to
+user
+:
+Invalid
+input
+received
+:
+Invalid
+volume MA
+:
+Volume
+status MA-0
+must
+be
+available MI-0
+to
+reserve
+,
+but
+the
+status MA-1
+is
+error MI-1
+.
+(
+HTTP MA-2
+400 MI-2
+)
+(
+Request-ID MA-3
+:
+req-1e50faf1-1c30-46bf-8a32-58a4522f85a6 MI-3
+)
+
+[TMP]
+10.0.20.26 MI
+``
+GET MA
+/v2.1/e169fa6db0c147f283ae7c6a936117f3/servers/detail?all_tenants=True&changes-since=2018-09-29T20%3A04%3A47.914966%2B00%3A00 MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+2001 MI-1
+time MA-2
+:
+0.3267288 MI-2
+
+[TMP]
+10.0.20.26 MI
+``
+GET MA
+/v2.1/b90cb75dcc844886be13556584e2bc54/servers/detail MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+2326 MI-1
+time MA-2
+:
+1.3904281 MI-2
+
+[TMP]
+10.0.20.26 MI
+``
+GET MA
+/v2.1/b90cb75dcc844886be13556584e2bc54/servers/detail MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+2326 MI-1
+time MA-2
+:
+2.8523331 MI-2
+
+[TMP]
+10.0.20.26 MI
+``
+POST MA
+/v2.1/b90cb75dcc844886be13556584e2bc54/servers/cf1716cf-f068-4999-8cf7-98812c45bc1d/os-volume_attachments MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+400 MI-0
+len MA-1
+:
+641 MI-1
+time MA-2
+:
+3.4256291 MI-2
+
+[TMP]
+10.0.20.23 MI
+``
+POST MA
+/v2.0/security-groups MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+201 MI-0
+len MA-1
+:
+1617 MI-1
+time MA-2
+:
+3.5724509 MI-2
+
+[TMP]
+11.17.1.9,10.0.20.26 MI
+``
+GET MA
+/2009-04-04/meta-data/instance-id MI
+HTTP/1.1 MI
+''
+status MA-0
+:
+200 MI-0
+len MA-1
+:
+127 MI-1
+time MA-2
+:
+2.1194730 MI-2
+
+[TMP]
+Getting
+quotas
+for
+project MA-0
+08e84a1bfe124666962588a17b4951b5 MI-0
+.
+
+[TMP]
+Getting
+quotas
+for
+user MA-0
+3b28a1bce6934f0ca604edbf9c09997a MI-0
+and
+project MA-1
+08e84a1bfe124666962588a17b4951b5 MI-1
+.
+
+[TMP]
+Getting
+quotas
+for
+project MA-0
+0a7635d9ded746728af521d4925d8e9c MI-0
+.
+
+[TMP]
+Getting
+quotas
+for
+project MA-0
+7925a4f60cb04848aeb195c715ed3415 MI-0
+.
+
+[TMP]
+Getting
+quotas
+for
+user MA-0
+6641d87922c145569f0ce912099f7283 MI-0
+and
+project MA-1
+d2c0a61d4f074197a9a77cc0ecb7f5cd MI-1
+.
+
+[TMP]
+10.0.20.26 MI
+``
+POST MA
+/
+v2.1 MI
+/
+69f1ccfb89d7492a87c55fb000f540d6 MI
+/
+servers MA
+HTTP/1.1 MI
+''
+status MA-0
+:
+500 MI-0
+len MA-1
+:
+621 MI-1
+time MA-2
+:
+4.9331179 MI-2
+
+[TMP]
+10.0.20.26 MI
+``
+DELETE MA
+/
+v2.1 MI
+/
+69f1ccfb89d7492a87c55fb000f540d6 MI
+/
+servers MA
+HTTP/1.1 MI
+''
+status MA-0
+:
+500 MI-0
+len MA-1
+:
+621 MI-1
+time MA-2
+:
+4.9331179 MI-2
+
+[TMP]
+10.0.20.26 MI
+``
+GET MA
+/
+v2.1 MI
+/
+b90cb75dcc844886be13556584e2bc54 MI
+/
+servers MA
+/
+cf1716cf-f068-4999-8cf7-98812c45bc1d MI
+/
+os-volume_attachments MA
+HTTP/1.1 MI
+''
+status MA-0
+:
+400 MI-0
+len MA-1
+:
+641 MI-1
+time MA-2
+:
+3.4256291 MI-2
+
+[TMP]
+10.0.20.46 MI
+``
+POST MA
+/
+v2.1 MI
+/
+26773a1c7926427a8bb239916edf9c6d MI
+/
+servers MA
+HTTP/1.1 MI
+''
+status MA-0
+:
+403 MI-0
+len MA-1
+:
+495 MI-1
+time MA-2
+:
+2.8721631 MI-2
